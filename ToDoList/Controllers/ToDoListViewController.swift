@@ -28,25 +28,6 @@ class ToDoListViewController: UITableViewController {
             print(error.localizedDescription)
         }
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-//        let context = getContext()
-//        let fetchRequest: NSFetchRequest<Task> = Task.fetchRequest()
-//
-//        if let objects = try? context.fetch(fetchRequest) {
-//            for object in objects {
-//                context.delete(object)
-//            }
-//        }
-//
-//        do {
-//            try context.save()
-//        } catch let error as NSError {
-//            print(error.localizedDescription)
-//        }
-    }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         1

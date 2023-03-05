@@ -58,16 +58,56 @@
 		096DD6AB29B4B0D700E4F8DB /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				096DD6AC29B4B0D700E4F8DB /* AppDelegate.swift */,
-				096DD6AE29B4B0D700E4F8DB /* SceneDelegate.swift */,
-				096DD6C629B4B36600E4F8DB /* ToDoListViewController.swift */,
-				096DD6B229B4B0D700E4F8DB /* Main.storyboard */,
-				096DD6B829B4B0DE00E4F8DB /* Assets.xcassets */,
-				096DD6BA29B4B0DE00E4F8DB /* LaunchScreen.storyboard */,
-				096DD6BD29B4B0DE00E4F8DB /* Info.plist */,
-				096DD6B529B4B0D700E4F8DB /* ToDoList.xcdatamodeld */,
+				096DD6CC29B5231F00E4F8DB /* Controllers */,
+				096DD6CB29B5230F00E4F8DB /* Models */,
+				096DD6CA29B522FB00E4F8DB /* Storyboards */,
+				096DD6C829B5228D00E4F8DB /* SupportingFiles */,
+				096DD6C929B522C500E4F8DB /* Resources */,
 			);
 			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		096DD6C829B5228D00E4F8DB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				096DD6AC29B4B0D700E4F8DB /* AppDelegate.swift */,
+				096DD6AE29B4B0D700E4F8DB /* SceneDelegate.swift */,
+				096DD6BD29B4B0DE00E4F8DB /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		096DD6C929B522C500E4F8DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				096DD6B829B4B0DE00E4F8DB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		096DD6CA29B522FB00E4F8DB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				096DD6B229B4B0D700E4F8DB /* Main.storyboard */,
+				096DD6BA29B4B0DE00E4F8DB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		096DD6CB29B5230F00E4F8DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				096DD6B529B4B0D700E4F8DB /* ToDoList.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		096DD6CC29B5231F00E4F8DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				096DD6C629B4B36600E4F8DB /* ToDoListViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,12 +333,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY5944F6NS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_FILE = ToDoList/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +347,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,12 +360,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY5944F6NS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_FILE = ToDoList/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
